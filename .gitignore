@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter / generated notebook outputs
+*.nbconvert.ipynb
+
+# Large or generated data
+outputs/
+data/raw/
+data/generated/
+data/processed/*.csv
+
+# Temporary files
+*.tmp
+*.log
+~$*
+
+# Office temporary files
+*.pptx~
+*.docx~
+*.xlsx~
+
+# Keep folder placeholders
+!.gitkeep
